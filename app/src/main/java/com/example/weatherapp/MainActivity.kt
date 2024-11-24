@@ -7,7 +7,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.weatherapp.databinding.ActivityMainBinding
 
-var currentTemp = 0
+val API: String = "https://collectapi.com/tr/"
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
